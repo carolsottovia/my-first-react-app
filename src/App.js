@@ -11,7 +11,7 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> JUMP.
           </p>
-          <h2>Welcome to React</h2>
+          <h2>Welcome to Codaisseur</h2>
           <a
             className="App-link"
             href="https://reactjs.org"
