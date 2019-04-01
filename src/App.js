@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Title from './components/Title'
 
 class App extends Component {
   render() {
@@ -8,6 +9,9 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
+          <main>
+          <Title content="Some Simple Title" />
+          </main>
           <p>
             Edit <code>src/App.js</code> JUMP.
           </p>
@@ -27,3 +31,11 @@ class App extends Component {
 }
 
 export default App;
+
+import React, { Component } from 'react'
+
+export default class Title extends Component {
+  render() {
+    return <h1>{ this.props.content }</h1>
+  }
+}
