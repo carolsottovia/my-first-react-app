@@ -32,8 +32,5 @@ class App extends Component {
 
 export default App;
 
-export default class Title extends Component {
-  render() {
-    return <h1>{ this.props.content }</h1>
-  }
-}
+
+
